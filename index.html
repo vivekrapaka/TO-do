@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+   <header>TO-Do list</header>
+   <form>
+    <div class="section">
+        <select name="selection" id="selected">
+            <option value="ALL">All</option>
+            <option value="completed">Completed</option>
+            <option value="uncompleted">Uncompleted</option>
+        </select>
+    </div>
+    <div class="inputed">
+        <input type="text" class="inputer"
+        placeholder="Add items..">
+    </div>
+    <div class="add">
+        <button type="submit" class="additem">Add items</button>
+    </div>
+   </form>
+   <div class="content">
+    <ul class="items"></ul>
+   </div>
+   <script src="./script.js"></script>
+
+</body>
+</html>
